@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+   <div class="weath-cont">
+       <div class="weath-sub-cont">
+           <div class="search-bar">
+                <form class="srch" align="center" action="">
+                    <input class="searchResult" type="search" placeholder="Enter city name">
+                    <a href="#" class="city-search" ><i class="fas fa-search"></i></a>
+                </form>
+           </div>
+           <div class="forcast-cont">
+                <div class="top-forcast">
+                    <h1 id="city-name" class="city-name">City Name</h1>
+                    <h2 class="cDate">Friday 22 October 2021</h2>
+                </div>
+                <div class="middle-forcast">
+                    <img class="weath-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="">
+                    <h1 class="temp">31</h1><h1>°</h1><h1>C</h1>
+                </div>
+                <div class="bottom-forcast">
+                    <h3 class="curWeath">Sunny</h3>
+                    <h2 class="description">With a 33% chance of rain</h2>
+                </div>
+           </div>
+       </div>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+</html>

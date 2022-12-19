@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('michael.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.weath-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weath-sub-cont{
+    width: 400px;
+    height: 500px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.search-bar{
+    margin: 20px 0px;
+    padding: 20px;
+    align-content: center;
+}
+
+.search-bar i{
+    margin: 5px;
+}
+
+.search-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.forcast-cont{
+    padding: 0px 20px;
+    margin: 20px;
+}
+
+input{
+    width: 300px;
+    padding: 10px 10px;
+    outline: none;
+}
+
+.middle-forcast{
+    display: flex;
+}
+
+.middle-forcast i{
+    margin: 10px 0px;
+}
